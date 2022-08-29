@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+.parent{
+  background-color: #EEE;
+  width: 100px;
+  height: 100px;
+  margin: 500px auto;
+  position: relative;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+
+}
+.parent div{
+    transition: 0.5s;
+}
+
+.parent .s1{
+    background-color: rgb(208, 214, 212);
+	width: 100px;
+	height: 100px;
+    transform-origin: right top;
+    position: absolute;
+    
+}
+.parent .s2{
+    background-color: rgb(125, 231, 182);
+	width: 100px;
+	height: 100px;
+    transform-origin: left top;
+    
+    position: absolute;
+
+}
+.parent .s3{
+    background-color: rgb(208, 214, 212);
+	width: 100px;
+	height: 100px;
+    transform-origin: left bottom;
+    
+    position: absolute;
+
+}
+.parent .s4{
+    background-color: rgb(57, 138, 111);
+	width: 100px;
+	height: 100px;
+    transform-origin: right bottom;
+    text-align: justify;
+    position: absolute;
+    
+
+}
+.parent div{
+    transform: rotate(630deg);
+    transform: rotate3d(1, 1, 1, 302deg);
+    border: 3px solid black;
+}
